@@ -1,0 +1,264 @@
+body{
+    background-color: lightgreen;
+}
+
+/*Navbar Section*/
+.navbar{
+    height: 80px;
+    background: rgb(77, 222, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.nav_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    color: #fff;
+}
+.button:hover{
+    background: #3425da;
+    transition: all 0.3s ease;
+}
+.navbar_link{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+.navbar_link:hover{
+    color: #e100ff;
+    transition: all 0.3s ease;
+}
+
+/*#navbar_logo{
+
+}*/
+
+/*Main Section Formatting*/
+.main{
+    background-color: lightgreen;
+}
+.main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: lightgreen;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.main_card{
+    width: 100%;
+}
+.main_card h2{
+    font-size: 4rem;
+    margin-top: 10px;
+    background-color: black;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.main_card p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+.main_card button{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 1rem;
+}
+/*Content Tag for all pages*/
+.content{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.info_content{
+    background-color: lightgreen;
+
+}
+.info_content h3{
+    color: black;
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.info_content p{
+    color: black;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.photo_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 95vh;
+    background-color: lightgreen;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.gallery_photo{
+    background-color: lightgreen;
+}
+.gallery_photo img{
+
+}
+.gallery_photo p{
+    background-color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/*Info_class.html Section*/
+.class_content{
+    background-color: lightgreen;
+
+}
+.info_content1{
+    background-color: lightgreen;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.info_content1 h3{
+    color: black;
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.info_content1 p{
+    color: black;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+/*Info_school.html Section*/
+.school_content{
+    background-color: lightgreen;
+
+}
+.info_content2{
+    background-color: lightgreen;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.info_content2 h3{
+    color: black;
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.info_content2 p{
+    color: black;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+/*Card/Services Section Formatting*/
+
+/*Footer Section Formatting*/
+.footer{
+    background-color: green;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer_container{
+    background-color: green;
+    margin-top: 0.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer_content{
+    background-color: green;
+}
+.footer_names{
+    background-color: green;
+}
+.footer_names h2{
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    align-items: center;
+    justify-content: center;
+
+}
+/*Navbar Responsive Formating*/
+/*Tablet*/
+
+/*Main Section Responsive Formatting*/
+
+
+
