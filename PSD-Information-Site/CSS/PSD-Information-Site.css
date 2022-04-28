@@ -70,10 +70,22 @@ body{
     transition: all 0.3s ease;
 }
 
-/*#navbar_logo{
-
-}*/
-
+#navbar_logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
 /*Main Section Formatting*/
 .main{
     background-color: lightgreen;
